@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - George A. Quito</title>
+    <meta name="description" content="WDD 231 - Web Frontend Development I - George A. Quito">
+    <meta name="author" content="George">
+    <script src="scripts/courses.js" defer></script>
+    <link rel="stylesheet" href="styles/home-page-large.css">
+    <link rel="stylesheet" href="styles/home-page-small.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="head">
+            <img src="images/me.jpg" alt="me">
+            <h1>George A. Quito</h1>
+        </div>
+        <nav id="nav">
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Chamber</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">GitHub Profile</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn</a></li>
+            </ul>
+            <!-- Hamburger icon for mobile -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card1">
+            <h2>TBD</h2>
+            <p>What am I supposed to write here?</p>
+        </section>
+        <section class="card">
+            <h2>Utah</h2>
+            <p>Utah - USA</p>
+            <img src="images/utah.jpg" alt="Utah">
+        </section>
+    </main>
+
+    <section id="certificate">
+        <div id="total-credits">
+            <p>Total Credits: <span id="credits-value">0</span></p> 
+        </div>
+        
+        <div class="course-filter">
+            <button onclick="filterCourses('all')">All Courses</button>
+            <button onclick="filterCourses('WDD')">WDD Courses</button>
+            <button onclick="filterCourses('CSE')">CSE Courses</button>
+        </div>
+        
+        <div id="courses" class="courses">
+            <!-- Dynamically rendered course cards will go here -->
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; <span id="currentyear"></span> George A Quito - Utah/USA</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script>
+        // JavaScript to populate current year and last modified date
+        document.getElementById('currentyear').textContent = new Date().getFullYear();
+        document.getElementById('lastModified').textContent = 'Last modified: ' + new Date(document.lastModified).toLocaleString();
+    </script>
+
+</body>
+
+</html>
