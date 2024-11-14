@@ -1,0 +1,28 @@
+{
+    "familyName": "Smith",
+    "moveInDate": "1827-11-01",
+    "numberOfPeople": 4,
+    "visitedByBishopric": false,
+    "familyMembers": [
+      {
+        "name": "Joseph Smith Jr",
+        "gender": "Male",
+        "birthdate": "1805-12-23"
+      },
+      {
+        "name": "Emma Hale Smith",
+        "gender": "Female",
+        "birthdate": "1804-04-30"
+      },
+      {
+        "name": "Julia Murdock Smith",
+        "gender": "Female",
+        "birthdate": "1832-09-12"
+      },
+      {
+        "name": "Joseph Smith III",
+        "gender": "Male",
+        "birthdate": "1832-11-06"
+      }
+    ]
+  }

@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #f3f3f3;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+section {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    padding: 1em;
+    text-align: center;
+    width: 340px;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+img {
+    border-radius: 8px;
+}
