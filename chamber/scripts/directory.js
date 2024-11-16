@@ -13,8 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
+    // Function to display the companies
     function displayMembers(members) {
-        memberDirectory.innerHTML = ''; // Clear previous content
+        memberDirectory.innerHTML = ''; 
         members.forEach(member => {
             const memberCard = document.createElement('div');
             memberCard.classList.add('member-card');
@@ -30,6 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    // Function to toggle between grid and list view
     function toggleView(view) {
         if (view === 'grid') {
             memberDirectory.classList.remove('list-view');
@@ -40,6 +42,13 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    // Initial fetch
+    // Event listeners for buttons
+    gridViewButton.addEventListener('click', () => toggleView('grid'));
+    listViewButton.addEventListener('click', () => toggleView('list'));
+
     fetchMemberData();
 });
+
+// JavaScript to populate current year and last modified date
+document.getElementById('currentyear').textContent = new Date().getFullYear();
+document.getElementById('lastModified').textContent = 'Last modified: ' + new Date(document.lastModified).toLocaleString();
