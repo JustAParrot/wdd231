@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Gary's Shell & Tortoise Care",
+        "address": "222 Meow Lane, Snail Hill, Bikini Bottom",
+        "phone_number": "+1 (385) 123-4567",
+        "website_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "image_icon": "https://cdn.pixabay.com/photo/2023/10/06/21/31/shell-8299152_1280.jpg",
+        "membership_level": 1,
+        "representative": "Garold Gary Snail Wilson Jr"
+    },
+    {
+        "name": "Jellyfish Jam Smoothies",
+        "address": "88 Electric Current Court, Jellyfish Fields, Bikini Bottom",
+        "phone_number": "+1 (385) 123-4567",
+        "website_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "image_icon": "https://cdn.pixabay.com/photo/2019/09/23/04/50/jellyfish-4497496_1280.jpg",
+        "membership_level": 2,
+        "representative": "Ol' Buzzy"
+    },
+    {
+        "name": "Mrs. Puff's Safety School",
+        "address": "789 Sailor's Safety Way, Near the Docks, Bikini Bottom",
+        "phone_number": "+1 (385) 123-4567",
+        "website_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "image_icon": "https://cdn.pixabay.com/photo/2024/09/07/14/09/ai-generated-9030043_1280.jpg",
+        "membership_level": 1,
+        "representative": "Mrs. Penelope Puff"
+    },
+    {
+        "name": "Chum Bucket Tech Solutions",
+        "address": "404 Mismatched Avenue, Across from the Krusty Krab, Bikini Bottom",
+        "phone_number": "+1 (385) 123-4567",
+        "website_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "image_icon": "https://cdn.pixabay.com/photo/2024/04/24/19/56/ai-generated-8718463_1280.png",
+        "membership_level": 3,
+        "representative": "Sheldon J. Plankton"
+    },
+    {
+        "name": "Patrick’s Rock Salon & Spa",
+        "address": "5 Rock Garden Lane, Under a Rock, Bikini Bottom",
+        "phone_number": "+1 (385) 123-4567",
+        "website_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "image_icon": "https://cdn.pixabay.com/photo/2024/06/16/15/57/ai-generated-8833699_1280.png",
+        "membership_level": 2,
+        "representative": "Patrick Star"
+    },
+    {
+        "name": "Squidward's Clarinet Cleaning Co.",
+        "address": "123 Boring Boulevard, Next to the Jellyfish Fields, Bikini Bottom",
+        "phone_number": "+1 (385) 123-4567",
+        "website_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "image_icon": "https://cdn.pixabay.com/photo/2013/04/07/01/17/squid-101375_1280.jpg",
+        "membership_level": 1,
+        "representative": "Squidward J. Q. Tentacles"
+    },
+    {
+        "name": "Krusty Krab Enterprises",
+        "address": "1 Secret Recipe Drive, Bikini Bottom, Ocean Floor 9245",
+        "phone_number": "+1 (385) 123-4567",
+        "website_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "image_icon": "https://cdn.pixabay.com/photo/2015/09/21/18/57/crabs-950463_1280.jpg",
+        "membership_level": 3,
+        "representative": "Eugene Crabs"
+    }
+]
