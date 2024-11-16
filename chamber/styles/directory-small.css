@@ -35,3 +35,73 @@
         display: none;
     }
 }
+
+
+@media screen and (max-width: 450px) {
+    .head h1 {
+        font-size: 2rem; 
+    }
+
+    .grid-view .member-card img,
+    .list-view .member-card img {
+        display: block;
+        margin: 0 auto 10px; 
+    }
+
+    .grid-view .member-card,
+    .list-view .member-card {
+        text-align: center; 
+        padding: 15px; 
+    }
+
+    .grid-view .member-card h3,
+    .list-view .member-card h3,
+    .grid-view .member-card p,
+    .list-view .member-card p {
+        text-align: center; 
+        padding-left: 40px;
+        margin-right: 35px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+        gap: 10px; 
+    }
+
+    .left-align, .center-align, .right-align {
+        text-align: left;
+        width: 100%; 
+    }
+
+    .center-align {
+        justify-content: flex-start; 
+    }
+
+    #menu {
+        display: none; 
+        flex-direction: column; 
+        background-color: #002855;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 100%;
+        border-radius: 10px;
+        padding: 10px 0;
+    }
+
+    #menu li {
+        margin: 10px 0;
+        margin-left: 20px;
+    }
+
+    #menu-toggle {
+        display: block; 
+    }
+
+    #menu.show {
+        display: flex; 
+    }
+}
+

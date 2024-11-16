@@ -52,3 +52,11 @@ document.addEventListener("DOMContentLoaded", () => {
 // JavaScript to populate current year and last modified date
 document.getElementById('currentyear').textContent = new Date().getFullYear();
 document.getElementById('lastModified').textContent = 'Last modified: ' + new Date(document.lastModified).toLocaleString();
+
+// Menu Toggle Functionality
+const menuToggle = document.getElementById('menu-toggle');
+const menu = document.getElementById('menu');
+
+menuToggle.addEventListener('click', () => {
+    menu.classList.toggle('show'); 
+});
