@@ -52,6 +52,7 @@
     .list-view .member-card {
         text-align: center; 
         padding: 15px; 
+        height: 400px;
     }
 
     .grid-view .member-card h3,
