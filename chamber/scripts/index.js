@@ -23,19 +23,19 @@ async function fetchWeatherData() {
     if (!response.ok) throw new Error('Failed to fetch weather data');
 
     const data = await response.json();
-    const temp = Math.round(data.list[0].main.temp) + '°F'; 
+    const temp = Math.round(data.list[0].main.temp) + '°F';
     const description = data.list[0].weather[0].description;
     const high = Math.round(data.list[0].main.temp_max) + '°F';
     const low = Math.round(data.list[0].main.temp_min) + '°F';
     const humidity = data.list[0].main.humidity + '%';
-    const iconCode = data.list[0].weather[0].icon; 
+    const iconCode = data.list[0].weather[0].icon;
 
-    // Icon image
-    const iconUrl = `http://openweathermap.org/img/wn/${iconCode}.png`;
+    // Check if iconCode exists before setting the src
+    const iconUrl = iconCode ? `http://openweathermap.org/img/wn/${iconCode}.png` : 'path/to/default-icon.png';
     document.getElementById('weather-icon').src = iconUrl;
 
     // Adjusted thing for timezone (Check for way to correct it)
-    const timezoneOffset = data.city.timezone; 
+    const timezoneOffset = data.city.timezone;
     const sunriseUTC = new Date((data.city.sunrise + timezoneOffset) * 1000);
     const sunsetUTC = new Date((data.city.sunset + timezoneOffset) * 1000);
 
@@ -52,9 +52,7 @@ async function fetchWeatherData() {
     document.getElementById('sunrise').textContent = sunrise;
     document.getElementById('sunset').textContent = sunset;
     displayForecast(forecast);
-  } 
-  
-  catch (error) {
+  } catch (error) {
     console.error('Error fetching weather data:', error);
   }
 }
