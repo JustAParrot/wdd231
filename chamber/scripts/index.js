@@ -124,7 +124,8 @@ async function fetchSpotlightBusinessCards() {
   
   // Randomly select members from the list
   function getRandomMembers(members, n) {
-    const shuffled = [...members].sort(() => 0.5 - Math.random());
+    const filteredMembers = members.filter(member => member.membership_level === 2 || member.membership_level === 3);
+    const shuffled = [...filteredMembers].sort(() => 0.5 - Math.random());
     return shuffled.slice(0, n);
   }
 
