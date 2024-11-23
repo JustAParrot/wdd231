@@ -25,16 +25,16 @@
 
     <!-- Links -->
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles/directory.css">
-    <link rel="stylesheet" href="styles/directory-small.css">
-    <script src="scripts/directory.js" defer></script>
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home-small.css">
+    <script src="scripts/index.js" defer></script>
 </head>
 
 <body>
     <header>
         <div class="head">
             <img src="images/background-banner.jpg" alt="background banner">
-            <h1>CCQ: Directory</h1>
+            <h1>Quito City - Chamber of Commerce</h1>
         </div>
     </header>
 
@@ -43,19 +43,53 @@
         <ul id="menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Discover</a></li>
-            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Directory</a></li>
+            <li><a href="directory.html">Directory</a></li>
             <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Join</a></li>
         </ul>
     </nav>
+
+    <section class="hero">
+        <div class="hero-image">
+            <img src="images/serach.webp" alt="search engine image">
+            <button class="hero-button">Start Search</button>
+        </div>
+    </section>
+
+    <main>
+        <section class="home">
+          <h1>Home</h1>
+          <div class="info-grid">
+            <div class="events">
+              <h2>Events</h2>
+              <p>December - 12 - 2024</p>
+              <p>Head Shaving and Nail Donation</p>
+              <p>December - 24 - 2024</p>
+              <p>Christmas Carols in the Hood</p>
+            </div>
     
-    <main id="main-content">
-        <div class="view-toggle">
-            <button id="grid-view">Grid View</button>
-            <button id="list-view">List View</button>
-        </div>
-        <div id="member-directory" class="list-view">
-        </div>
-    </main>
+            <div class="weather">
+              <h2>Current Weather</h2>
+              <p><strong id="temp">Loading...</strong></p>
+              <img id="weather-icon" src="" alt="Weather Icon" style="width: 50px; height: 50px;">
+              <p id="description">Loading...</p>
+              <p>High: <span id="high">Loading...</span></p>
+              <p>Low: <span id="low">Loading...</span></p>
+              <p>Humidity: <span id="humidity">Loading...</span></p>
+              <p>Sunrise: <span id="sunrise">Loading...</span></p>
+              <p>Sunset: <span id="sunset">Loading...</span></p>
+            </div>
+    
+            <div class="forecast">
+              <h2>Weather Forecast</h2>
+              <div id="forecast">
+              </div>
+            </div>
+          </div>
+    
+          <div class="business-cards">
+          </div>
+        </section>
+      </main>
 
     <footer>
         <div class="left-align">
@@ -64,20 +98,20 @@
             <p>notascammer@perfectcrime.com</p>
             <p>+1-867-5309</p>
         </div>
-    
+
         <div class="center-align">
             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="images/facebook.png" alt="facebook" /></a>
             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="images/instagram.png" alt="instagram" /></a>
             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="images/tiktok.png" alt="tik tok" /></a>
         </div>
-    
+
         <div class="right-align">
             <p>WDD 231: Chamber of Commerce Page</p>
             <p>Current Year: <span id="currentyear"></span></p>
             <p id="lastModified"></p>
         </div>
     </footer>
-    
+
 
 </body>
 
