@@ -12,13 +12,15 @@
     <!-- Meta & X -->
     <meta property="og:title" content="WDD 231: Web Frontend Development I - George A. Quito">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://utahnewsdispatch.com/wp-content/uploads/2024/01/011524_University-of-Utah_02-1536x1151.jpg">
+    <meta property="og:image"
+        content="https://utahnewsdispatch.com/wp-content/uploads/2024/01/011524_University-of-Utah_02-1536x1151.jpg">
     <meta property="og:url" content="https://justaparrot.github.io/wdd231/index.html">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="WDD 231: Web Frontend Development I - George A. Quito">
     <meta name="twitter:description" content="A Home Page / Index to present for all my work and code. Real cool, eh?">
-    <meta name="twitter:image" content="https://utahnewsdispatch.com/wp-content/uploads/2024/01/011524_University-of-Utah_02-1536x1151.jpg">
+    <meta name="twitter:image"
+        content="https://utahnewsdispatch.com/wp-content/uploads/2024/01/011524_University-of-Utah_02-1536x1151.jpg">
     <meta name="twitter:url" content="https://justaparrot.github.io/wdd231/index.html">
     <meta name="twitter:creator" content="@IdontHaveAnXAccountforThisThing">
 
@@ -69,20 +71,32 @@
 
     <section id="certificate">
         <div id="total-credits">
-            <p>Total Credits: <span id="credits-value">0</span></p> 
+            <p>Total Credits: <span id="credits-value">0</span></p>
         </div>
-        
+
         <div class="course-filter">
             <button onclick="filterCourses('all')">All Courses</button>
             <button onclick="filterCourses('WDD')">WDD Courses</button>
             <button onclick="filterCourses('CSE')">CSE Courses</button>
         </div>
-        
+
         <div id="courses" class="courses">
             <!-- Dynamically rendered course cards will go here -->
         </div>
     </section>
-    
+
+    <dialog id="courseModal">
+        <div id="modalContent">
+            <button id="closeModal">Close</button>
+            <h3 id="modalSubjectNumber"></h3>
+            <p id="modalTitle"></p>
+            <p><strong>Credits:</strong> <span id="modalCredits"></span></p>
+            <p><strong>Description:</strong> <span id="modalDescription"></span></p>
+            <p><strong>Certificate:</strong> <span id="modalCertificate"></span></p>
+            <p><strong>Technology:</strong> <span id="modalTechnology"></span></p>
+        </div>
+    </dialog>
+
     <footer>
         <p>&copy; <span id="currentyear"></span> George A Quito - Utah/USA</p>
         <p id="lastModified"></p>
