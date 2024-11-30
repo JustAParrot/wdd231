@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chamber of Commerce - City of Quito</title>
-    <meta name="description" content="W02: Chamber Home Page">
+    <meta name="description" content="W02: Chamber Join Page">
     <meta name="author" content="George A. Quito">
 
     <!-- Meta & X -->
@@ -25,9 +25,9 @@
 
     <!-- Links -->
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles/home.css">
-    <link rel="stylesheet" href="styles/home-small.css">
-    <script src="scripts/index.js" defer></script>
+    <link rel="stylesheet" href="styles/thankyou.css">
+    <link rel="stylesheet" href="styles/thankyou-small.css">
+    <script src="scripts/thankyou.js" defer></script>
 </head>
 
 <body>
@@ -48,48 +48,13 @@
         </ul>
     </nav>
 
-    <section class="hero">
-        <div class="hero-image">
-            <img src="images/serach.webp" alt="search engine image">
-            <button class="hero-button">Start Search</button>
-        </div>
-    </section>
-
     <main>
-        <section class="home">
-          <h1>Home</h1>
-          <div class="info-grid">
-            <div class="events">
-              <h2>Events</h2>
-              <p>December - 12 - 2024</p>
-              <p>Head Shaving and Nail Donation</p>
-              <p>December - 24 - 2024</p>
-              <p>Christmas Carols in the Hood</p>
-            </div>
-    
-            <div class="weather">
-              <h2>Current Weather</h2>
-              <p><strong id="temp">Loading...</strong></p>
-              <img id="weather-icon" src="images/banana.png" alt="Weather Icon" style="width: 50px; height: 50px;">
-              <p id="description">Loading...</p>
-              <p>High: <span id="high">Loading...</span></p>
-              <p>Low: <span id="low">Loading...</span></p>
-              <p>Humidity: <span id="humidity">Loading...</span></p>
-              <p>Sunrise: <span id="sunrise">Loading...</span></p>
-              <p>Sunset: <span id="sunset">Loading...</span></p>
-            </div>
-    
-            <div class="forecast">
-              <h2>Weather Forecast</h2>
-              <div id="forecast">
-              </div>
-            </div>
-          </div>
-    
-          <div class="business-cards">
-          </div>
-        </section>
-      </main>
+        <h1>Thank You!</h1>
+        <p>Your membership application has been successfully submitted. Below is a summary of the information you
+            provided:</p>
+        <div id="submitted-info" class="info-box"></div>
+        <a href="index.html" class="button">Return to Home</a>
+    </main>
 
     <footer>
         <div class="left-align">

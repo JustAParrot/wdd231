@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Main -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce - City of Quito</title>
+    <meta name="description" content="W02: Chamber Join Page">
+    <meta name="author" content="George A. Quito">
+
+    <!-- Meta & X -->
+    <meta property="og:title" content="Quito City - Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://justaparrot.github.io/wdd231/chamber/images/background-banner.jpg">
+    <meta property="og:url" content="https://www.facebook.com/">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Quito City - Chamber of Commerce">
+    <meta name="twitter:description"
+        content="Uniting businesses to ensure our community thrives in an ever-competitive world. Join us and be part of the movement that champions growth, innovation, and a brighter future for all!">
+    <meta name="twitter:image" content="https://justaparrot.github.io/wdd231/chamber/images/background-banner.jpg">
+    <meta name="twitter:url" content="https://x.com/?lang=en">
+    <meta name="twitter:creator" content="@IdontHaveAnXAccountforThisThing">
+
+    <!-- Links -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/join-small.css">
+    <script src="scripts/join.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <img src="images/background-banner.jpg" alt="background banner">
+            <h1>Quito City - Chamber of Commerce</h1>
+        </div>
+    </header>
+
+    <nav id="nav">
+        <button id="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Membership Application</h1>
+        <form method="GET" action="thankyou.html">
+            <label>
+                First Name
+                <input type="text" name="first" required autocomplete="given-name" title="Your First Name">
+            </label>
+            <label>
+                Last Name
+                <input type="text" name="last" required autocomplete="family-name" title="Your Last Name">
+            </label>
+            <label>
+                Title
+                <input type="text" name="title" autocomplete="organization-title" title="Your Organizational Title"
+                    pattern="[a-zA-Z\s\-]{7,}" placeholder="e.g., Executive Manager">
+            </label>
+            <label>
+                Email
+                <input type="email" name="email" required autocomplete="email" title="Your Email"
+                    placeholder="example@domain.com">
+            </label>
+            <label>
+                Mobile Phone
+                <input type="tel" name="phone" required autocomplete="tel" title="Your Phone Number">
+            </label>
+            <label>
+                Organization Name
+                <input type="text" name="organization" required autocomplete="organization"
+                    title="Your Organization's Name">
+            </label>
+            <label>
+                Membership Level
+                <select name="membership" required>
+                    <option value="NP">NP Membership (No Fee)</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select>
+            </label>
+            <label>
+                Business/Organization Description
+                <textarea name="description" title="Describe your organization"></textarea>
+            </label>
+            <input type="hidden" name="timestamp" id="timestamp">
+            <input type="submit" value="Submit Membership Application">
+        </form>
+
+        <section id="membership-cards">
+            <div class="card">
+                <h3>NP Membership</h3>
+                <a href="#" class="modal-link" data-modal="np-modal">Learn More</a>
+            </div>
+            <div class="card">
+                <h3>Bronze Membership</h3>
+                <a href="#" class="modal-link" data-modal="bronze-modal">Learn More</a>
+            </div>
+            <div class="card">
+                <h3>Silver Membership</h3>
+                <a href="#" class="modal-link" data-modal="silver-modal">Learn More</a>
+            </div>
+            <div class="card">
+                <h3>Gold Membership</h3>
+                <a href="#" class="modal-link" data-modal="gold-modal">Learn More</a>
+            </div>
+        </section>
+
+        <div class="modal" id="np-modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>NP Membership Benefits</h3>
+                <p>These membership levels have increasing costs as well as increased benefits per level. Benefits might
+                    include special events, training, advertising (like spotlight positions on the home page), event
+                    discounts, etc.</p>
+            </div>
+        </div>
+        <div class="modal" id="bronze-modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Bronze Membership Benefits</h3>
+                <p>These membership levels have increasing costs as well as increased benefits per level. Benefits might
+                    include special events, training, advertising (like spotlight positions on the home page), event
+                    discounts, etc.</p>
+            </div>
+        </div>
+        <div class="modal" id="silver-modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Silver Membership Benefits</h3>
+                <p>These membership levels have increasing costs as well as increased benefits per level. Benefits might
+                    include special events, training, advertising (like spotlight positions on the home page), event
+                    discounts, etc.</p>
+            </div>
+        </div>
+        <div class="modal" id="gold-modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Gold Membership Benefits</h3>
+                <p>These membership levels have increasing costs as well as increased benefits per level. Benefits might
+                    include special events, training, advertising (like spotlight positions on the home page), event
+                    discounts, etc.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="left-align">
+            <h3>Chamber Of Commerce - City of Quito</h3>
+            <p>742 Evergreen Terrace in Springfield</p>
+            <p>notascammer@perfectcrime.com</p>
+            <p>+1-867-5309</p>
+        </div>
+
+        <div class="center-align">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="images/facebook.png" alt="facebook" /></a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="images/instagram.png" alt="instagram" /></a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="images/tiktok.png" alt="tik tok" /></a>
+        </div>
+
+        <div class="right-align">
+            <p>WDD 231: Chamber of Commerce Page</p>
+            <p>Current Year: <span id="currentyear"></span></p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
