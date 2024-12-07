@@ -37,9 +37,7 @@ function checkVisitMessage() {
     localStorage.setItem('lastVisit', new Date().toISOString());
 }
 
-window.onload = checkVisitMessage;
-
-// Function to get the current date
+// Current date
 function displayCurrentDate() {
     const currentDate = new Date();
     const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
@@ -49,7 +47,7 @@ function displayCurrentDate() {
 
 // Call the function on page load
 window.onload = function() {
-    checkVisitMessage(); // For the visit message
-    displayCurrentDate(); // For displaying the current date
+    checkVisitMessage(); 
+    displayCurrentDate(); 
 };
 

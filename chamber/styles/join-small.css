@@ -39,3 +39,13 @@
     display: flex;
   }
 }
+
+@media (max-width: 768px) {
+  #discovery-main {
+    grid-template-columns: 1fr;
+  }
+
+  #gallery {
+    grid-template-columns: 1fr;
+  }
+}

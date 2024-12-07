@@ -244,9 +244,7 @@ input[type="submit"] {
 }
 /* Animation for Membership Cards */
 
-
-
-
+/* <Main - Discovery */
 #discovery-main {
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -258,6 +256,10 @@ input[type="submit"] {
   background-color: #f4f4f4;
   padding: 20px;
   border-radius: 10px;
+}
+
+#sidebar li {
+  margin-bottom: 20px;
 }
 
 #gallery {
@@ -292,17 +294,6 @@ input[type="submit"] {
   opacity: 1;
 }
 
-@media (max-width: 768px) {
-  #discovery-main {
-    grid-template-columns: 1fr;
-  }
-
-  #gallery {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Styles for the user message */
 #user-message, #current-date {
   background-color: #002855;
   color: white;
@@ -311,4 +302,5 @@ input[type="submit"] {
   border-radius: 5px;
   font-size: 1.2rem;
 }
+/* <Main - Discovery */
 
