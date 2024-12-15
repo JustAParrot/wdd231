@@ -1,0 +1,136 @@
+/* General Layout */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #d58936;
+}
+
+.sidebar .ad-space img,
+.ad-banner img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+.ad-banner {
+  text-align: center;
+  padding: 0;
+}
+/* General Layout */
+
+/* Hero Section */
+.story-hero {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.story-hero img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 32px;
+  color: #a44200;
+  margin-top: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+/* Hero Section */
+
+/* Button Style */
+#read-more-btn,
+#see-all-btn {
+  padding: 10px 15px;
+  background-color: #d58936;
+  color: #3c1518;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-left: 15px;
+  transition: background-color 0.3s, color 0.3s;
+  position: relative;
+  bottom: 5px;
+}
+
+#read-more-btn:hover,
+#see-all-btn:hover {
+  background-color: #3c1518;
+  color: white;
+}
+/* Button Style */
+
+/* Typing Text Section */
+.typing-text {
+  white-space: pre-wrap;
+  overflow: hidden;
+  word-wrap: break-word;
+  color: #3c1518;
+  line-height: 1.6;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#training-image {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+/* Typing Text Section */
+
+/* Side Styling */
+.sidebar {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.sidebar .ad-space img {
+  width: 100%;
+  height: 600px;
+}
+/* Side Styling */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .story-hero img {
+    max-width: 100%;
+  }
+
+  .text-container,
+  .sidebar {
+    padding: 10px;
+  }
+}
+/* Responsive Design */

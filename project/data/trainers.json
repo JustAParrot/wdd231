@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Mystery Dog Training Co.",
+        "address": "1313 Spooky Lane, Coolsville, OH",
+        "phone": "(555) 867-5309",
+        "website": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "image": "trainer.jpg",
+        "membership_level": 3,
+        "description": "Scooby-Doo offers dog training services with a unique focus on overcoming fears and building confidence."
+    },
+    {
+        "name": "Fred's Obedience Academy",
+        "address": "101 Leadership Ave, Coolsville, OH",
+        "phone": "(555) 555-1212",
+        "website": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "image": "trainer.jpg",
+        "membership_level": 3,
+        "description": "Fred specializes in teaching advanced obedience and agility training for high-energy dogs."
+    },
+    {
+        "name": "Daphne's Canine Spa & Training",
+        "address": "77 Glamour Way, Coolsville, OH",
+        "phone": "(555) 987-6543",
+        "website": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "image": "trainer.jpg",
+        "membership_level": 2,
+        "description": "Daphne combines luxury grooming with dog training to keep your furry friend fabulous and well-behaved."
+    },
+    {
+        "name": "Velma's Smart Pups Academy",
+        "address": "404 Knowledge Blvd, Coolsville, OH",
+        "phone": "(555) 314-1592",
+        "website": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "image": "trainer.jpg",
+        "membership_level": 2,
+        "description": "Velma offers cognitive training programs designed to stimulate your dog's mind and problem-solving abilities."
+    },
+    {
+        "name": "Shaggy's Chill Dog School",
+        "address": "420 Snack Lane, Coolsville, OH",
+        "phone": "(555) 123-4567",
+        "website": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "image": "trainer.jpg",
+        "membership_level": 1,
+        "description": "Shaggy provides relaxed training sessions for laid-back dogs who love treats and fun activities."
+    },
+    {
+        "name": "SpongeBob's Fetch & Swim",
+        "address": "124 Bikini Bottom St, Bikini Bottom",
+        "phone": "(555) 222-3333",
+        "website": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "image": "trainer.jpg",
+        "membership_level": 2,
+        "description": "SpongeBob specializes in water-based dog training and teaches your pup how to master fetch at the beach."
+    },
+    {
+        "name": "Patrick's Paw-sitive Training",
+        "address": "225 Starfish Rock Rd, Bikini Bottom",
+        "phone": "(555) 444-5555",
+        "website": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "image": "trainer.jpg",
+        "membership_level": 1,
+        "description": "Patrick focuses on positive reinforcement techniques to bring out the best behavior in your dog."
+    }
+]

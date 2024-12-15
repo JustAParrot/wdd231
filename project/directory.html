@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Main -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to DOGA!!</title>
+    <meta name="description" content="WDD 231 - Web Frontend Development I - George A. Quito">
+    <meta name="author" content="George A. Quito">
+
+    <!-- Meta & X -->
+    <meta property="og:title" content="Dog School DOGA - The Best Training for Your Dog">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/home1.jpg">
+    <meta property="og:url" content="https://justaparrot.github.io/wdd231/project/home.html">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dog School DOGA - Premier Dog Training in Quito, Ecuador">
+    <meta name="twitter:description"
+        content="Join Dog School DOGA, the top dog training academy in Quito, Ecuador! From basic obedience to advanced programs, we nurture strong bonds between dogs and owners.">
+    <meta name="twitter:image" content="images/home1.jpg">
+    <meta name="twitter:url" content="https://justaparrot.github.io/wdd231/project/home.html">
+    <meta name="twitter:creator" content="@IdontHaveAnXAccountforThisThing">
+
+    <!-- Links -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/head-foot.css">
+    <link rel="stylesheet" href="styles/directory.css">
+    <script src="scripts/directory.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <img src="images/logo.webp" alt="Logo" class="header-img" loading="lazy">
+        <h1>DOGA</h1>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <button id="toggleViewBtn">Toggle View</button>
+        <section id="members-container" class="grid-view">
+            <div class="member-card">
+                <img src="images/example.jpg" alt="Example Name" loading="lazy">
+                <div class="text-content">
+                    <h3>Example Name</h3>
+                    <p><strong>Representative:</strong> Example Representative</p>
+                    <p><strong>Address:</strong> Example Address</p>
+                    <p><strong>Phone:</strong> (123) 456-7890</p>
+                    <a href="#" target="_blank">Visit Website</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <ul class="footer-list">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Use</a></li>
+            </ul>
+            <ul class="footer-list">
+                <li><a href="contact.html">Careers</a></li>
+                <li><a href="attributions.html">Attributions</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Blog</a></li>
+                <li><a href="contact.html">Support</a></li>
+            </ul>
+            <div class="footer-social">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="social-icon"><img src="images/facebook.png"
+                        alt="Facebook" loading="lazy"></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="social-icon"><img
+                        src="images/instagram.png" alt="Instagram" loading="lazy"></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="social-icon"><img src="images/tiktok.png"
+                        alt="Tik Tok" loading="lazy"></a>
+            </div>
+        </div>
+        <p>&copy; <span id="currentyear"></span> George A Quito - Utah/USA</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script>
+        document.getElementById('currentyear').textContent = new Date().getFullYear();
+        document.getElementById('lastModified').textContent = `Last Modified: ${document.lastModified}`;
+    </script>
+</body>
+
+</html>
